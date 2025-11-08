@@ -1,0 +1,9 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Pet Joyful Events API",
+    "version": "1.0.0",
+    "description": "Documentação mínima para o microserviço de eventos"
+  },
+  "paths": {}
+}
