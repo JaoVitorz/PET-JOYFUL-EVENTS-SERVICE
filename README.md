@@ -50,3 +50,19 @@ mkdir -p src/{config,controllers,middleware,models,routes,services,utils} tests
 
 # 8. Executar em desenvolvimento
 npm run dev
+
+## Arquitetura MVC
+
+### Models (`src/models/`)
+- Define a estrutura dos dados de eventos no MongoDB
+
+### Controllers (`src/controllers/`)
+- Implementa a lógica de negócio para gerenciar eventos
+- Valida dados e processa requisições
+
+### Routes (`src/routes/`)
+- Define os endpoints da API
+- Mapeia URLs para os controllers
+
+### Services (`src/services/`)
+- Camada de serviços com regras de negócio complexas
