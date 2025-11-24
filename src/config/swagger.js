@@ -14,7 +14,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:3002',
+        url: 'https://pet-joyful-events-service.onrender.com',
         description: 'Servidor de Desenvolvimento'
       }
     ],
