@@ -12,7 +12,8 @@ const PORT = process.env.PORT || 3002;
 // Middlewares
 // Backend: src/app.js
 app.use(cors({
-  origin: 'http://localhost:3000',
+  
+  origin: ['http://localhost:3000', "https://pet-joyful-projeto-integrador-next-js-ay4p-kzbr9m9bu.vercel.app"],
   credentials: true
 }));
 app.use(express.json());
